@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include germany_compliance *.css
+recursive-include germany_compliance *.csv
+recursive-include germany_compliance *.html
+recursive-include germany_compliance *.ico
+recursive-include germany_compliance *.js
+recursive-include germany_compliance *.json
+recursive-include germany_compliance *.md
+recursive-include germany_compliance *.png
+recursive-include germany_compliance *.py
+recursive-include germany_compliance *.svg
+recursive-include germany_compliance *.txt
+recursive-exclude germany_compliance *.pyc
