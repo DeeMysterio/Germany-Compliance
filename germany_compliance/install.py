@@ -19,7 +19,7 @@ def make_custom_fields():
 
 
 def add_custom_roles_for_reports():
-	"""Add Access Control to UAE VAT 201."""
+	"""Add Access Control to DATEV."""
 	if not frappe.db.get_value('Custom Role', dict(report='DATEV')):
 		frappe.get_doc(dict(
 			doctype='Custom Role',
